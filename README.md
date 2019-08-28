@@ -1,2 +1,2 @@
-# ggplot-courses
+# 👨‍🏫  ggplot2 Teaching Material
  

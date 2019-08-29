@@ -2,7 +2,7 @@
  
 Collection of teaching materials for the `R` package [`{ggplot2}`](https://ggplot2.tidyverse.org/).
 
-["An Introduction to {`ggplot2`}: A Graphics Framework for Elegant Plotting in `R`" (2019-08-28)](https://cedricscherer.netlify.com/slides/2019-08-28-intro-ggplot-statsizw#1)
++ ["An Introduction to {`ggplot2`}"](https://cedricscherer.netlify.com/slides/2019-08-28-intro-ggplot-statsizw#1) — Stats Group of the Leibniz Institute for Zoo and Wildlife Research (2019-08-28)
  
 ### Helpful Ressources
  

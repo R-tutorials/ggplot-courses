@@ -24,7 +24,7 @@ Collection of teaching materials for the `R` package [`{ggplot2}`](https://ggplo
   + &#35;TidyTuesday Community  →  [#TidyTuesday on Twitter](https://twitter.com/hashtag/tidytuesday?lang=en)
   + ggplot2 Cheatsheet  →  [github.com/rstudio/cheatsheets](https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf)
 
-* **Useful packages:**
+* **Useful Packages:**
   + **`{ggtext}`** — rich-text rendering  →  [github.com/clauswilke/ggtext](https://github.com/clauswilke/ggtext)
   + **`{ggforce}`** — several interesting add-on features   →  [ggforce.data-imaginist.com](https://ggforce.data-imaginist.com/)
   + **`{ggridges}`** — geoms for joy plots  →  [github.com/clauswilke/ggridges](https://github.com/clauswilke/ggridges)

@@ -1,6 +1,6 @@
 #####################################################
 ##    Code for "An Introduction to `{ggplot2}`"    ##
-##         by Cédric Scherer, IZW Berlin           ##
+##         by Cedric Scherer, IZW Berlin           ##
 ##      Stats Group  |  28th of August 2019        ##
 #####################################################
 
@@ -16,7 +16,7 @@
 ## install.packages("ggplot2")
 library(ggplot2)
 
-chic <- readr::read_csv("https://raw.githubusercontent.com/Z3tt/R-Tutorials/master/ggplot2/chicago-nmmaps.csv")
+chic <- readr::read_csv("https://raw.githubusercontent.com/Z3tt/ggplot-courses/master/data/chicago-nmmaps.csv")
 chic$season <- factor(chic$season, levels = c("Spring", "Summer", "Autumn", "Winter"))
 chic$year <- factor(chic$year, levels = as.character(1997:2000))
 tibble::glimpse(chic)

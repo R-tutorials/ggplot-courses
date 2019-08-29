@@ -1,6 +1,6 @@
 #####################################################
 ##    Code for "An Introduction to `{ggplot2}`"    ##
-##         by Cedric Scherer, IZW Berlin           ##
+##         by Cédric Scherer, IZW Berlin           ##
 ##      Stats Group  |  28th of August 2019        ##
 #####################################################
 
@@ -13,16 +13,15 @@
 ## install.packages("hrbrthemes", repos = "https://cinc.rud.is")
 ## devtools::install_github("Ryo-N7/tvthemes")
 
-## install.packages("ggplot2")
-library(ggplot2)
+## Setup
+library(tidyverse)
+## library(ggplot2)
+theme_set(theme_bw(base_size = 18))
 
-chic <- readr::read_csv("https://raw.githubusercontent.com/Z3tt/ggplot-courses/master/data/chicago-nmmaps.csv")
+chic <- readr::read_csv("https://raw.githubusercontent.com/Z3tt/R-Tutorials/master/ggplot2/chicago-nmmaps.csv")
 chic$season <- factor(chic$season, levels = c("Spring", "Summer", "Autumn", "Winter"))
 chic$year <- factor(chic$year, levels = as.character(1997:2000))
 tibble::glimpse(chic)
-
-library(tidyverse)
-theme_set(theme_bw(base_size = 18))
 
 ggplot(data = chic,
        mapping = 
@@ -54,6 +53,7 @@ ggplot(chic, aes(year, temp)) +
 
 ggplot(chic, aes(date, temp)) +
   geom_point() +
+  geom_line() +
   geom_rug(sides = "r")
 
 ggplot(chic, aes(year, temp)) +
@@ -153,13 +153,6 @@ ggplot(chic, aes(date, temp)) +
 
 ggplot(chic, aes(date, temp)) +
   geom_point(aes(color = season)) +
-  scale_x_date(
-    name = NULL,
-    limits = c(
-      as.Date("1997-01-01"),
-      as.Date("1999-12-31")
-    )
-  ) +
   scale_y_continuous(
     name = "How I feel...",
     breaks = c(0, 30, 60, 90),

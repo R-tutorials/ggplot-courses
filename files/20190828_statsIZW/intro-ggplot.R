@@ -11,7 +11,7 @@
 ## install.packages("rcartocolor")
 ## install.packages("ggthemes")
 ## install.packages("hrbrthemes", repos = "https://cinc.rud.is")
-## devtools::install_github("Ryo-N7/tvthemes")
+## install.packages("tvthemes")
 
 ## Setup
 library(tidyverse)

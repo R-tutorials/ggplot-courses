@@ -9,10 +9,10 @@ Collection of teaching materials for the `R` package [`{ggplot2}`](https://ggplo
 ### Helpful Ressources
  
 * **Free Online Books:**
-  + **ggplot2: Elegant Graphics for Data Analysis** by Hadley Wickham  →  [ggplot2-book.org](https://ggplot2-book.org/)
-  + **R for Data Science** by Hadley Wickham  →  [r4ds.had.co.nz](https://r4ds.had.co.nz/)
-  + **Data Visualization: A Practical Introduction** by Kieran Healy  →  [socviz.co](https://socviz.co/)
-  + **Fundamentals of Data Visualization** by Claus Wilke  →  [serialmentor.com/dataviz](https://serialmentor.com/dataviz/)
+  + "ggplot2: Elegant Graphics for Data Analysis" by Hadley Wickham  →  [ggplot2-book.org](https://ggplot2-book.org/)
+  + "R for Data Science" by Hadley Wickham  →  [r4ds.had.co.nz](https://r4ds.had.co.nz/)
+  + "Data Visualization: A Practical Introduction" by Kieran Healy  →  [socviz.co](https://socviz.co/)
+  + "Fundamentals of Data Visualization" by Claus Wilke  →  [serialmentor.com/dataviz](https://serialmentor.com/dataviz/)
 
 * **Galleries:**
   + ggplot2 Extension Gallery  →  [ggplot2-exts.org/gallery](http://www.ggplot2-exts.org/gallery/)
